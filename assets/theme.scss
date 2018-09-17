@@ -335,22 +335,22 @@ $grid-breakpoint-has-push: ($small, $medium-up);
 $color-text: #3d4246;
 $color-text-shadow: rgba(0,0,0,0.4);
 $color-body-text: #69727b;
-$color-sale-text: #557B97;
-$color-small-button: #fff;
+$color-sale-text: #eb0a50;
+$color-small-button: #ffffff;
 $color-small-button-text: #3d4246;
 $color-text-field: #fff;
 $color-text-field-text: #000;
 $color-navigation-text: #3d4246;
 
 // Button colors
-$color-btn-primary: #557B97;
+$color-btn-primary: #5b9755;
 $color-btn-primary-text: #fff;
 
 // Hover and focus states
 $color-text-focus: adaptiveColor(#3d4246, 64.96);
 $color-overlay-text-focus: adaptiveColor(#fff, 255.0);
-$color-btn-primary-focus: adaptiveColor(#557B97, 114.83);
-$color-small-button-focus: adaptiveColor(#fff, 255.0);
+$color-btn-primary-focus: adaptiveColor(#5b9755, 125.54);
+$color-small-button-focus: adaptiveColor(#ffffff, 255.0);
 
 // Link buttons and secondary cta
 $color-link: $color-body-text;
@@ -416,7 +416,7 @@ $z-index-announcement-bar: 10;
 $z-index-skip-to-content: 10000; // really high to be safe of app markup
 
 /*================ SVG ================*/
-$svg-select-icon: #{'//cdn.shopify.com/s/files/1/0013/2546/5713/t/1/assets/ico-select.svg?7884901828855169209'};
+$svg-select-icon: #{'//cdn.shopify.com/s/files/1/0013/2546/5713/t/1/assets/ico-select.svg?12586193495874200609'};
 
 /*================ Drawers ================*/
 $transition-drawer: all 0.45s cubic-bezier(0.29, 0.63, 0.44, 1);
@@ -525,7 +525,7 @@ $slick-opacity-not-active: 0.25;
 
 // Only called once so make sure proper file is grabbed
 @function slick-image-url($url) {
-  @return url(//cdn.shopify.com/s/files/1/0013/2546/5713/t/1/assets/ajax-loader.gif?7884901828855169209);
+  @return url(//cdn.shopify.com/s/files/1/0013/2546/5713/t/1/assets/ajax-loader.gif?12586193495874200609);
 }
 
 // Unused intentionally
